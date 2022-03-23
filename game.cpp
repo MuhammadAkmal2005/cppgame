@@ -6,30 +6,10 @@ int main() {
 
   int hits = 0, numberOfHits = 0;
   int ships[4][4] = {
-    {
-      0,
-      1,
-      0,
-      1,
-    },
-    {
-      0,
-      0,
-      1,
-      0,
-    },
-    {
-      1,
-      0,
-      0,
-      1,
-    },
-    {
-      0,
-      0,
-      1,
-      1,
-    }
+    {0,1,0,1,},
+    {0,0,1,0,},
+    {1,0,0,1,},
+    {0,0,1,1,}
   };
 
   cout << "You must destroy five boats in as few turns as you can.\n\n";
